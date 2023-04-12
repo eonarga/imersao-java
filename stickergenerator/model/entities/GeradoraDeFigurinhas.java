@@ -47,7 +47,7 @@ public class GeradoraDeFigurinhas  {
         graphics.drawString(frase, x, y);
        
         /*Criando uma nova subpasta no diretorio informado */
-        var path = new File("c:alura-stickers\\stickergenerator");
+        var path = new File("c:\\temp\\alura-stickers\\stickergenerator");
         if(path != null) {
            new File( path + "//saida").mkdir();
         }
